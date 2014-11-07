@@ -77,7 +77,8 @@ abstract class ProtocolHelper {
     }
 
     public ProtocolInfo getInfo() {
-        return new ProtocolInfo(protocolName, protocolType, protocolCompany, dataLength);
+        //return new ProtocolInfo(protocolName, protocolType, protocolCompany, dataLength);
+        return new ProtocolInfo(protocolName, protocolType, protocolCompany, dataLength, 3);
     }
 
     public int parse(double pulse, boolean state) {
